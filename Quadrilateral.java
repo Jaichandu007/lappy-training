@@ -114,12 +114,9 @@ public class Quadrilateral
 
 class Trapezium extends Quadrilateral
 { 
-    public void Trapez()
+    public Trapezium(Points a,Points b,Points c,Points d)
     {
-        Quadrilateral A = new Quadrilateral();
-        A.vertices()
-
-        int 
+    
     if(ab == cd &&  bc!=da)
     {
         System.out.println("This is a Trapezium");
@@ -130,6 +127,7 @@ class Trapezium extends Quadrilateral
     }
     }
 }
+
 
 
 class Paralellogram extends Quadrilateral
